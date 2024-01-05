@@ -1,0 +1,102 @@
+.bg-special{
+background-color: #1e202b !important;
+}
+.bg-footer{
+background-color: #333749 !important;
+}
+.bg-specialCard{
+    background-color: rgb(46, 49, 70);
+}
+ul li{
+    padding:  4px 10px;
+    width: 120px;
+    margin: 15px 5px !important;
+    cursor: pointer;
+}
+ul li:hover{
+    border: 1px solid rgb(13, 202, 240);
+    border-radius: 50rem;
+}
+.weather-img{
+    display: flex;
+}
+.li-style{
+    border: 1px solid rgb(13, 202, 240) !important;
+    border-radius: 50rem;
+    
+}
+@media only screen and (max-width: 992px) {
+    ul li{
+        width: 100%;
+    }
+    .li-quirry ul {
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+    }
+}
+.div-search{
+    background-image: url(../images/banner.png);
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+#findLocation{
+    border: none;
+    width: 90%;
+    padding-left: 40px;
+    border-radius: 50rem;
+    background-color: #1e202b;
+    color: #fff;
+    outline: none;
+}
+.div-search button{
+    position: absolute;
+    top: 51%;
+    right: 6%;
+    border-radius: 30px;
+    padding: 5px 50px;
+    background-color: rgb(13, 202, 240);
+    color: #fff ;
+    border: none;
+}
+body{
+    height: 1000px;
+}
+#tempretureAnother2{
+    color: gray;
+}
+footer input::placeholder{
+    color: #635d5d !important;
+}
+footer p {
+    color: rgb(194, 190, 190);
+}
+.linksIcon {
+    display: flex;
+    justify-content: space-around;
+}
+.linksIcon i {
+    font-size: 20px;
+    color: rgb(13, 202, 240);
+}   
+.iconlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    transition: all .5s;
+}
+.iconlink:hover {
+    color: #fff !important;
+    background-color:rgb(13, 202, 240);
+}
+.iconlink:hover i{
+    color: #fff !important;
+}
